@@ -212,3 +212,14 @@ nav ul li a:hover {
   margin-bottom: 30px;
   color: #e6af2e;
 }
+
+.service-item-black {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.service-item-white {
+  background: linear-gradient(
+    rgba(206, 208, 206, 0.6),
+    rgba(206, 208, 206, 0.6)
+  );
+}
