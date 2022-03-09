@@ -268,3 +268,11 @@ nav ul li a:hover {
   border-color: #191716;
   color: #e6af2e;
 }
+
+.service-item:hover .front-text {
+  transform: translateY(-200px);
+}
+
+.service-item:hover .back-text {
+  bottom: 0;
+}
