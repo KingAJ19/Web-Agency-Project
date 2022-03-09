@@ -222,4 +222,31 @@ nav ul li a:hover {
     rgba(206, 208, 206, 0.6),
     rgba(206, 208, 206, 0.6)
   );
+  color: #191716;
+}
+
+.front-text {
+  text-align: center;
+  transition: transform 2s;
+}
+
+.back-text {
+  position: absolute;
+  bottom: -15em;
+  width: 35%;
+  margin: 0 auto;
+  height: 100%;
+  transition: bottom 2s;
+  padding: 30px 0;
+}
+
+.back-text h1 {
+  margin-bottom: 20px;
+}
+
+.back-text button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid #e6af2e;
 }
