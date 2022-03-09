@@ -184,3 +184,25 @@ nav ul li a:hover {
   border: 3px solid #e6af2e;
   margin: 0 auto;
 }
+
+#services {
+  min-height: 100vh;
+  background: url(Images/services.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0 80px 0;
+}
+
+.service-container {
+  max-width: 90vw;
+  margin: 0 auto;
+  color: #e0e2db;
+}
+
+.service-item {
+  overflow: hidden;
+  position: relative;
+  padding: 60px;
+}
