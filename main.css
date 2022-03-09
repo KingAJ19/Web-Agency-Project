@@ -114,3 +114,20 @@ nav ul li a:hover {
 }
 
 /* SKILLS */
+
+#skills {
+  padding: 60px 0;
+  background-color: #beb7a4;
+}
+
+.skills-container {
+  max-width: 95vw;
+  margin: 0 auto;
+}
+
+.skills-item {
+  text-align: center;
+  margin: 20px 0;
+}
+
+
