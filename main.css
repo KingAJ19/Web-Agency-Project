@@ -8,6 +8,8 @@ body {
   box-sizing: border-box;
 }
 
+/* NAVBAR */
+
 nav ul {
   list-style-type: none;
   border-top: 6px solid #e6af2e;
@@ -61,4 +63,15 @@ nav ul li a:hover {
   .logo .fa {
     display: none;
   }
+}
+
+/* BANNER */
+
+#banner {
+  min-height: 90vh;
+  background: url(Images/background-banner.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
