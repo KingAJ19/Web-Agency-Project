@@ -206,3 +206,9 @@ nav ul li a:hover {
   position: relative;
   padding: 60px;
 }
+
+.service-item .fa {
+  font-size: 60px;
+  margin-bottom: 30px;
+  color: #e6af2e;
+}
