@@ -360,5 +360,28 @@ nav ul li a:hover {
   font-size: 15px;
 }
 
-.projects-item:hover {
+.projects-item:hover img {
+  opacity: 0.4;
+  transform: scale(1.3);
+}
+
+.projects-item:hover .img-text,
+.projects-item:hover .img-footer {
+  opacity: 1;
+}
+
+@media screen and (min-width: 576px) {
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
+  }
 }
