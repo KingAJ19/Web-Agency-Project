@@ -385,3 +385,14 @@ nav ul li a:hover {
     grid-column-gap: 1em;
   }
 }
+
+/* FOOTER */
+
+footer {
+  background-color: #191716;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
