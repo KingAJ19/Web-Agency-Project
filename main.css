@@ -249,4 +249,22 @@ nav ul li a:hover {
   padding: 10px 20px;
   background: transparent;
   border: 2px solid #e6af2e;
+  font-size: 20px;
+  color: #e6af2e;
+}
+
+.back-text button:hover {
+  background-color: #e6af2e;
+  color: #191716;
+}
+
+.service-item-white button {
+  background: #e6af2e;
+  color: #191716;
+}
+
+.service-item-white button:hover {
+  background: #191716;
+  background-color: #191716;
+  color: #e6af2e;
 }
