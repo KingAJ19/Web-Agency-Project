@@ -408,13 +408,13 @@ footer {
   font-size: 30px;
 }
 
-.footer-icons fa {
+.footer-icons .fa {
   margin-right: 10px;
   color: #e0e2db;
   transition: transform 2s;
 }
 
-.footer-icons fa:hover {
+.footer-icons .fa:hover {
   color: #e6af2e;
   transform: translateY(-15px);
 }
